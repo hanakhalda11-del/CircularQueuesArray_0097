@@ -128,4 +128,17 @@ int main()
     Queues q;
     char ch;
 
-    
+    while (true)
+    {
+        try
+        {
+            cout << "Menu" << endl;
+            cout << "1. Implement Insert operasi\n" << endl;
+            cout << "2. Implement Delete Operation\n" << endl;
+            cout << "3. Display values\n" << endl;
+            cout << "4. Exit " << endl;
+            cout << "Enter your choice(1-4): ";
+            cin >> ch;
+            cout << endl;
+
+            
